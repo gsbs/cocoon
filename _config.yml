@@ -1,5 +1,5 @@
 title: Cocoon
-url: "https://pro-panda.tech"
+url: "https://www.pro-panda.tech"
 baseurl: "/cocoon"
 
 markdown: kramdown
@@ -16,7 +16,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/about"
+   link: "about"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
