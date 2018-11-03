@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+Hi! I am a 5th year Potions student at Hogwarts School of Witchcraft and Wizardry.
 
-This is a jekyll based blog emplate. The source code is available on [GitHub](https://github.com/pro-panda/cocoon).
+This is a jekyll based blog template. The source code is available on [GitHub](https://github.com/pro-panda/cocoon).
 
 ## Research Interest
 
@@ -37,7 +37,7 @@ Here is a horizontal rule
 
 Here is a blockquote
 
-> To a great mind, nothing is little
+> There is nothing in a caterpillar that tells you it's going to be a butterfly.
 
 ## References
 
