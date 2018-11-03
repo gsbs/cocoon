@@ -13,11 +13,7 @@
     {% else %}
     {% assign desc = site.description %}
     {% endif %}
-    {% if page.url %}
-    {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% else %}
-    {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% endif %}
+
     <meta name="description" content="{{ desc }}">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
@@ -28,26 +24,5 @@
     {% endif %}
     {% if site.twitter_username %}
     <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
-    {% endif %}
-    <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
-    <meta name="og:url" content="{{ url }}">
-    <meta name="og:type" content="article">
-    {% if site.og_image %}
-    <meta name="og:image" content="{{ site.og_image }}">
-    {% endif %}
-    {% if site.facebook_id %}
-    <meta name="fb:admins" content="{{ site.facebook_id }}">
-    {% endif %}
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ desc }}">
-    <meta name="twitter:url" content="{{ url }}">
-    {% if site.twitter_image %}
-    <meta name="twitter:image" content="{{ site.twitter_image }}">
-    {% else %}
-    <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
 </head>
