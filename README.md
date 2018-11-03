@@ -10,7 +10,7 @@ A clean, single column template built for jekyll
 * To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
 
 ```
-nav:
+navbar:
  - name: "About"
    link: "/researcher/"
  - name: "Resume"

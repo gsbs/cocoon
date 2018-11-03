@@ -14,7 +14,7 @@ sass:
     style: compressed
     sass_dir: css
 
-nav:
+navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
